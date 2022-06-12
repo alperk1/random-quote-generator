@@ -16,4 +16,4 @@ def get_quote() -> dict:
     return quotes[random.randint(0, len(quotes) - 1)]
 
 def topla(x,y):
-    return x * y
+    return x + y

@@ -18,9 +18,9 @@ def test_topla():
     x = 10
     y = 15
     toplam = topla(x, y)
-    assert toplam == 150
+    assert toplam == 25
 
     x = 10
     y = -5
     toplam = topla(x, y)
-    assert toplam == -50
+    assert toplam == 5
